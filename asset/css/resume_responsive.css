@@ -21,6 +21,16 @@
 		height: auto;
 	}
 
+	.page_border
+	{
+		min-height: 842px;
+	}
+
+	.date_sign
+	{
+		margin-top: 510px;
+	}
+
 	.sign
 	{
 		width: 50%;
@@ -50,6 +60,22 @@
 		min-height: 100vh;
 		height: auto;
 	}
+
+	.page_border
+	{
+		min-height: 842px;
+	}
+
+	.date_sign
+	{
+		margin-top: 510px;
+	}
+
+	.sign
+	{
+		width: 50%;
+		margin-top: -91px;
+	}
 }
 /************************	Small screen	**********************************************************/
 
@@ -73,6 +99,22 @@
 		min-width: 100%;
 		min-height: 100vh;
 		height: auto;
+	}
+
+	.page_border
+	{
+		min-height: 842px;
+	}
+
+	.date_sign
+	{
+		margin-top: 510px;
+	}
+
+	.sign
+	{
+		width: 50%;
+		margin-top: -91px;
 	}
 }
 /***********************	/Tab screen	*************************************************************/
