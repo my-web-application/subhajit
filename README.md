@@ -1,4 +1,4 @@
-#This is my online portfoilo
+# This is my online portfoilo
 
 This site was built using [GitHub Pages](https://my-web-application.github.io/subhajit/).
 

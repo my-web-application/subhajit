@@ -1,11 +1,30 @@
 /*************************************	Extra smaill screen	******************************************/
 @media(max-width: 575px)
 {
+
+	:root
+	{
+		--content-width: 100%;
+		--content-under-line: #403535b3;
+	}
+
+	.resume_content_div
+	{
+		width: 100%;
+		min-width: 100%;
+	}
 	.page_size
 	{
 		width: 100%;
+		min-width: 100%;
 		min-height: 100vh;
 		height: auto;
+	}
+
+	.sign
+	{
+		width: 50%;
+		margin-top: -91px;
 	}
 }
 /************************************	/Extra small scree	*****************************************n*/
@@ -13,9 +32,21 @@
 /************************	Small screen	**********************************************************/
 @media screen and (min-width: 576px) and (max-width: 767px)
 {
+	:root
+	{
+		--content-width: 100%;
+		--content-under-line: #403535b3;
+	}
+
+	.resume_content_div
+	{
+		width: 100%;
+		min-width: 100%;
+	}
 	.page_size
 	{
 		width: 100%;
+		min-width: 100%;
 		min-height: 100vh;
 		height: auto;
 	}
@@ -25,9 +56,21 @@
 /***********************	Tab screen	*************************************************************/
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
+	:root
+	{
+		--content-width: 100%;
+		--content-under-line: #403535b3;
+	}
+
+	.resume_content_div
+	{
+		width: 100%;
+		min-width: 100%;
+	}
 	.page_size
 	{
 		width: 100%;
+		min-width: 100%;
 		min-height: 100vh;
 		height: auto;
 	}
