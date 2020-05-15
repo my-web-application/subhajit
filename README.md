@@ -1,25 +1,8 @@
-## Welcome to my portfolio
-This is basic website for my introduction
+#This is my online portfoilo
 
+[![Click Me](https://my-web-application.github.io/subhajit/)](https://my-web-application.github.io/subhajit/)
 
-### Markdown
+Here you can view my work portfolio, live links and view my CV.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+:grinning:
+###`Thank you for showing interest`
