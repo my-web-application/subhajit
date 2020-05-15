@@ -1,0 +1,191 @@
+@media(max-width: 575px)
+{
+	.my_small_about
+	{
+		padding: 40px 0px;
+	}
+	.my_small_about h4
+	{
+		font-weight: 600;
+	}
+	.my_small_about h6
+	{
+		margin-top: 15px;
+	}
+
+
+
+	.responsive_des_l_t_content
+	{
+		padding: 5px;
+	}
+
+	.l_t_content
+	{
+		margin: 0px 0px 10px 0px;
+	}
+
+	.language_tools
+	{
+		padding: 35px 0px;
+	}
+
+	.recent_work
+	{
+		padding: 10px 0px;
+	}
+
+	.work_list
+	{
+		padding: 10px 0px;
+	}
+
+
+
+	.about_contact
+	{
+		padding: 5px 0px;
+	}
+
+	.about_us_text_div
+	{
+		padding: 113px 0px;
+	}
+
+	.contact_text_div
+	{
+		padding: 113px 0px;
+	}
+}
+
+/************************	Small screen	**********************************************************/
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+	.my_small_about
+	{
+		padding: 40px 0px;
+	}
+	.my_small_about h4
+	{
+		font-weight: 600;
+	}
+	.my_small_about h6
+	{
+		margin-top: 0px;
+	}
+
+
+
+	.responsive_des_l_t_content
+	{
+		padding: 5px;
+	}
+
+	.l_t_content
+	{
+		margin: 0px 0px 10px 0px;
+	}
+
+	.language_tools
+	{
+		padding: 35px 0px;
+	}
+
+	.recent_work
+	{
+		padding: 10px 0px;
+	}
+
+	.work_list
+	{
+		padding: 10px 0px;
+	}
+
+
+
+	.about_contact
+	{
+		padding: 5px 0px;
+	}
+
+	.about_us_text_div
+	{
+		padding: 113px 0px;
+	}
+
+	.contact_text_div
+	{
+		padding: 113px 0px;
+	}
+}
+/************************	/Small screen	**********************************************************/
+
+/***********************	Tab screen	*************************************************************/
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+	.my_small_about
+	{
+		padding: 40px 0px;
+	}
+	.my_small_about h4
+	{
+		font-weight: 600;
+	}
+	.my_small_about h6
+	{
+		margin-top: 0px;
+	}
+
+
+
+	.responsive_des_l_t_content
+	{
+		padding: 5px;
+	}
+
+	.l_t_content
+	{
+		margin: 0px 0px 10px 0px;
+	}
+
+	.language_tools
+	{
+		padding: 35px 0px;
+	}
+
+	.recent_work
+	{
+		padding: 10px 0px;
+	}
+
+	.work_list
+	{
+		padding: 10px 0px;
+	}
+
+
+
+	.about_contact
+	{
+		padding: 5px 0px;
+	}
+
+	.about_us_text_div
+	{
+		padding: 113px 0px;
+	}
+
+	.contact_text_div
+	{
+		padding: 113px 0px;
+	}
+}
+/***********************	/Tab screen	*************************************************************/
+
+
+
+@media print {
+	html, body {
+	   display: none;
+	}
+}

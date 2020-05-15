@@ -1,0 +1,120 @@
+/*Extra small*/
+@media(max-width: 575px)
+{
+	.contact_title
+	{
+		padding: 20px 10px;
+	}
+
+	.contact_form_details
+	{
+		padding: 3px 10px;
+	}
+
+	.contact_form_details form
+	{
+		width: 100%;
+	}
+
+	.field_error
+	{
+		width: 100%;
+	    text-align: left;
+	    padding: 0px 10px;
+	    color: #ff1010;
+	    font-size: 15px;
+	}
+
+	.message-success
+	{
+		width: 100%;
+	}
+
+	.message-error
+	{
+		width: 100%;
+	}
+
+	input[type='text'], input[type="email"], textarea
+	{
+		width: 100%;
+	}
+
+	.send_button
+	{
+		width: 100%;
+	}
+
+
+	.other_contact
+	{
+		padding: 40px 0px;
+	}
+
+	.address_div
+	{
+		text-align: left;
+	}
+}
+/*/Extra small*/
+
+
+/*small*/
+@media screen and (min-width: 576px) and (max-width: 768px)
+{
+	.contact_title
+	{
+		padding: 20px 10px;
+	}
+
+	.contact_form_details
+	{
+		padding: 3px 10px;
+	}
+
+	.contact_form_details form
+	{
+		width: 100%;
+	}
+
+	.field_error
+	{
+		width: 100%;
+	    text-align: left;
+	    padding: 0px 10px;
+	    color: #ff1010;
+	    font-size: 15px;
+	}
+
+	.message-success
+	{
+		width: 100%;
+	}
+
+	.message-error
+	{
+		width: 100%;
+	}
+
+	input[type='text'], input[type="email"], textarea
+	{
+		width: 100%;
+	}
+
+	.send_button
+	{
+		width: 100%;
+	}
+
+
+	.other_contact
+	{
+		padding: 40px 0px;
+	}
+
+	.address_div
+	{
+		text-align: left;
+	}
+}
+/*/small*/

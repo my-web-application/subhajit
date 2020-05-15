@@ -1,0 +1,369 @@
+:root
+{
+	--content-width: 595px;
+	--content-under-line: #403535b3;
+}
+
+body
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.resume_content_div
+{
+	/*min-width: 100%;*/
+	min-width: 626px;
+	width: auto;
+	min-height: 100vh;
+	background-color: #c3c3c3;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.page_size
+{
+	min-width: 595px;
+	min-height: 842px;
+	background-color: white;
+	padding: 15px;
+	display: inline-block;
+}
+
+.page_border
+{
+	width: 100%;
+	min-height: 842px;
+	border: 3px solid #595656;
+	padding: 15px;
+	border-radius: 15px;
+	text-align: left;
+}
+
+.name_contact_details
+{
+	width: 100%;
+}
+
+.name
+{
+	text-align: center;
+}
+
+.name span
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contact_detail
+{
+	width: 100%;
+	font-size: 15px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.contact_detail > .email_id
+{
+	color: #403535db;
+	font-weight: 600;
+}
+
+.contact_detail_phone_no
+{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	color: #403535db;
+}
+
+.goal_div
+{
+	width: var(--content-width);
+	margin-top: 14px;
+}
+
+.goal_div span
+{
+	font-size: 16px;
+}
+
+.profession_div
+{
+	width: var(--content-width);
+	margin-top: 14px;
+}
+
+.profession_div > .profession_title
+{
+	font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid var(--content-under-line);
+    padding-bottom: 7px;
+}
+
+.profession_div > .profession_desc
+{
+	margin-top: 4px;
+}
+
+.profession_summary, .profession_desc_projects, .profession_desc_projects_desc, .profession_desc_tecnical, .profession_desc_academic
+{
+	font-size: 15px;
+}
+
+.project_profile
+{
+	margin: 10px 0px;
+    text-decoration: underline var(--content-under-line);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.project_description
+{
+	margin: 10px 0px;
+    text-decoration: underline var(--content-under-line);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.project_description_ul
+{
+	list-style-type: "\21E8"; 
+}
+
+.page_break
+{
+	width: 100%;
+	height: 40px;
+}
+
+
+
+
+/*Course and tranning*/
+.course_tranning_title
+{
+	width: 100%;
+	background-color: #e7e7e7;
+	padding: 10px;
+	margin-top: 0px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.course_tranning_details
+{
+	width: 100%;
+	padding: 0px 12px;
+	margin-top: 4px;
+}
+
+.course_tranning_details ul
+{
+	font-size: 15px;
+	list-style-type: square;
+}
+
+/*/Course and tranning*/
+
+/*Skills*/
+.skill_title
+{
+	width: 100%;
+	background-color: #e7e7e7;
+	padding: 10px;
+	margin-top: 0px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.skill_details
+{
+	width: 100%;
+	padding: 0px 12px;
+	margin-top: 4px;
+}
+
+.custom_ul
+{
+	font-size: 15px;
+	list-style-type: square;
+}
+
+/*.course_tranning_details ul
+{
+	font-size: 15px;
+	list-style-type: square;
+}*/
+
+/*/skills*/
+
+/*Personal profile*/
+.personal_profile_title
+{
+	width: 100%;
+	background-color: #e7e7e7;
+	padding: 10px;
+	margin-top: 0px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.personal_profile_details
+{
+	width: 100%;
+	padding: 0px 12px;
+	margin-top: 4px;
+	font-size: 15px;
+}
+
+.custom_width
+{
+	max-width: 27.333%;
+}
+/*/Personal profile*/
+
+/*Date & sign*/
+.date_sign
+{
+	width: 100%;
+	height: auto;
+	/*margin-top: 212px;*/
+	margin-top: 556px;
+}
+
+.date
+{
+	width: 100%;
+	float: left;
+}
+
+.date_title
+{
+	height: 30px;
+	float: left;
+}
+
+.place_title
+{
+	height: 30px;
+	float: left;
+}
+
+.date_line_span
+{
+	width: 90px;
+	border-bottom: 2px dotted #898989;
+	text-align: center;
+	line-height: 19px;
+	float: left;
+}
+
+.place_line_span
+{
+	width: 90px;
+	border-bottom: 2px dotted #898989;
+	text-align: center;
+	line-height: 19px;
+	float: left;
+}
+
+.sign
+{
+	width: 100%;
+	height: auto;
+	margin-top: -32px;
+	float: right;
+	text-align: center;
+}
+
+.sign_img
+{
+	width: 88%;
+	border-bottom: 2px dotted #898989;
+	float: right;
+}
+
+.sign_img img
+{
+	width: 160px;
+	height: 65px;
+}
+
+.sign_title
+{
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding-right: 70px;
+}
+/*/Date & sign*/
+
+
+/*Download button*/
+.download_bttn_div
+{
+	min-width: 193px;
+	min-height: 39px;
+	background-color: #c3c3c3;
+	position: fixed;
+	bottom: 50px;
+	left: 30px;
+	border: 2px solid black;
+	padding: 4px;
+	border-radius: 10px;
+}
+
+.download_bttn_div button
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 10px;
+	background-color: #a8a2a2;
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.download_bttn_div button:after
+{
+	content: "";
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(45, 108, 255), rgb(255, 255, 255));
+	border-image-slice: 1;
+	opacity: 0;
+	
+}
+
+.download_bttn_div button i
+{
+	color: #004bfc;
+}
+
+.download_bttn_div:hover
+{
+	transform: scale(1.02);
+}
+
+.download_bttn_div button:hover::after
+{
+	opacity: 1;
+	
+}
+/*/Download button*/
+
+
+footer
+{
+	background: linear-gradient(0deg, rgba(132,41,250,1) 33%, rgb(195, 195, 195) 77%);
+}

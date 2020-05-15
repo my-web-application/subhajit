@@ -1,0 +1,83 @@
+.noscript_content
+{
+	width: 100%;
+	height: 100vh;
+	/*background-color: red;*/
+}
+
+.noscript_content_div
+{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	display: inline-block;
+	text-align: center;
+	background-image: url('../image/siteimage/no_script.png');
+}
+
+.noscript_content_text_div
+{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.noscript_content_text
+{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 50px;
+}
+
+.noscript_text
+{
+	width: 100%;
+	background-color: #7d7a7acf;
+    color: white;    
+	text-align: center;
+	display: inline-block;
+	padding: 28px 0px;
+}
+
+.noscript_text_1
+{
+	margin-bottom: 25px;
+}
+
+.text_1
+{
+	/*font: bold 200px arial, sans-serif;
+	background-color: #565656;
+	color: transparent;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;*/
+	/*Above code is text inner shadow. It works fine*/
+
+	text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 15px red;
+}
+
+.allow
+{
+	text-align: center;
+    text-transform: capitalize;
+    text-shadow: 4px 3px 5px red;
+}
+
+.text_2
+{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 17px #25f1f1;
+}
+
+.text_2:before, .text_2:after
+{
+	content: "⚝";
+	/*https://graphemica.com/%E2%9A%9D*/
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #c9f12d;
+}

@@ -1,0 +1,200 @@
+/*About Banner*/
+.about_banner
+{
+	width: 100%;
+	height: 100vh;
+	background-color: #519af3;
+}
+
+.about_image_div
+{
+	width: 100%;
+	height: 100vh;
+	background: url('../image/siteimage/subhajit_dey.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.about_text_div
+{
+	width: 100%;
+	height: 100vh;
+	display: table;
+}
+
+.about_text_content
+{
+	width: 100%;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #004cff;
+	color: white;
+	padding: 0px 10px 0px 10px;
+}
+
+.about_text_title
+{
+	font-size: 80px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.about_text_content_detil
+{
+	font-size: 18px;
+	text-align: left;
+}
+
+/*Download resume*/
+
+.download_resume
+{
+	text-align: left;
+	margin-top: 40px;
+}
+
+.download_bttn
+{
+	padding: 20px;
+	border-radius: 8px;
+	outline: none;
+	border: 2px solid #656363;
+	position: relative;
+}
+
+.download_bttn:before
+{
+	content: "";
+	background: #3d75f9;
+	position: absolute;
+	padding: 20px;
+	border-radius: 8px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	opacity: 0;
+	transition: 2s;
+	color: white;
+	font-weight: bold;
+}
+
+.download_bttn:hover::before
+{
+	content: 'Download Now';
+	/*background: #3d75f9;*/
+	position: absolute;
+	padding: 20px;
+	border-radius: 8px;
+	top: 0;
+	left: 0;
+	/*width: 100%;*/
+	height: 100%;
+	transition: 1s;
+	opacity: 1;
+}
+/*/About Banner*/
+
+
+/*Project Complect*/
+.project_complect
+{
+	width: 100%;
+	min-height: 240px;
+	height: auto;
+	background-color: #f3eded;
+	padding: 25px 0px;
+}
+
+.counting_project
+{
+	text-align: right;
+}
+
+.counting
+{
+	font-size: 120px;
+	color: #004cff;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.counting sup
+{
+	top: -3.3em;
+	font-size: 20px;
+	color: black;
+	font-weight: 600;
+}
+
+.counting_project_text
+{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.counting_project_text_title
+{
+	color: #004cff;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.counting_project_text_desc
+{
+	font-size: 18px;
+	padding: 15px;
+}
+
+.counting_project_text_desc span
+{
+	font-family: "Times New Roman", Times, serif;
+}
+/*/Project Complect*/
+
+/*Project content*/
+.project_working
+{
+	width: 100%;
+	min-height: 250px;
+	padding: 80px 0px;
+}
+
+.design_content
+{
+	text-align: center;
+	padding: 0px 30px;
+}
+
+.design_content_title
+{
+	width: 100%;
+	text-align: left;
+}
+
+.slno
+{
+	font-size: 44px;
+	font-weight: 600;
+	color: #9e9b9b;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.design_content_title > .title
+{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.design_content_text
+{
+	width: 100%;
+	text-align: justify;
+}
+
+.design_content_text > span
+{
+
+}
+/*Project content
