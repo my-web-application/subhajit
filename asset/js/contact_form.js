@@ -9,8 +9,9 @@ class Captcha{
 	getcaptcha(){
 		var a = 0;
 		var b = 0;
+		//http://localhost/sites/myportfolio_api/captcha.php
 		$.ajax({
-			url: "http://localhost/sites/myportfolio_api/captcha.php",
+			url: "https://mybestblogs.000webhostapp.com/gitsitejssource/captcha.php",
 			method: "GET",
 			dataType: 'json',
 			async: false,
