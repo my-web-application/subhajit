@@ -1,3 +1,65 @@
+/*Captcha*/
+
+class Captcha{
+	constructor(a=0, b=0){
+		this.a = a;
+		this.b = b;
+	}
+
+	getcaptcha(){
+		var a = 0;
+		var b = 0;
+		$.ajax({
+			url: "http://localhost/sites/myportfolio_api/captcha.php",
+			method: "GET",
+			dataType: 'json',
+			async: false,
+			success: function(e){
+				// console.log(e);
+				a = e[0];
+				b = e[1];
+				$(".captcha_question").text(a+"+"+b);
+			},
+			error: function(e){
+				console.log(e);
+			}
+		});
+		return [a,b];
+	}
+
+	verify(calculate){
+		const ans = this.a + this.b;
+		// console.log(calculate);
+		return (calculate == ans);
+	}
+}
+
+var obj;
+
+$(function(){
+	let resp = Captcha.prototype.getcaptcha();
+	obj = new Captcha(resp[0], resp[1]);
+	/*	https://javascript.info/class	*/
+	$(".captcha_refresh").on("click", function(){
+		resetCaptcha();
+	});
+	// obj.verify();
+});
+
+function resetCaptcha(){
+	resp = Captcha.prototype.getcaptcha();
+	obj = new Captcha(resp[0], resp[1]);
+}
+
+function captchaCheck(calculate){
+	// console.log(obj);
+	return obj.verify(calculate);
+}
+
+/*Captcha end*/
+
+
+
 $(function() {
 
 	$(".loader").hide(500);
@@ -17,7 +79,11 @@ $(function() {
 				email: true
 			},
 			subject: "required",
-			message: "required"
+			message: "required",
+			captcha_answer: {
+				required: true,
+				number: true
+			}
 		},
 
 		messages: {
@@ -30,7 +96,11 @@ $(function() {
 				email: "Please enter valid mail id"
 			},
 			subject: "Please enter specific subject",
-			message: "Message is blank. Please enter some message"
+			message: "Message is blank. Please enter some message",
+			captcha_answer: {
+				required: "Please enter the captcha answer",
+				number: "Only number accepct"
+			}
 		},
 		submitHandler: function(form) {
 			// form.submit();
@@ -41,6 +111,7 @@ $(function() {
 			let email_id = $('#email_id').val();
 			let subject = $('#subject').val();
 			let message = $('#message').val();
+			let calculate = $('#captcha_answer').val();
 
 			datainput = {
 				"full_name": full_name,
@@ -50,6 +121,13 @@ $(function() {
 			};
 
 			// console.log(datainput);
+			if(!captchaCheck(calculate)){
+				// console.log("Come false");
+				$("#captcha_answer-error").show();
+				$("#captcha_answer-error").html("Captcha answer error");
+				resetCaptcha();
+				return false;
+			}
 
 			// url: "http://192.168.2.12/sites/myportfolio_api/contact_api.php",
 

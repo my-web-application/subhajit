@@ -36,7 +36,8 @@
 
 .field_error
 {
-	width: 70%;
+	/*width: 70%;*/
+	width: 100%;
     text-align: left;
     padding: 0px 10px;
     color: #ff1010;
@@ -46,7 +47,8 @@
 
 input[type='text'], input[type="email"], textarea
 {
-	width: 70%;
+	/*width: 70%;*/
+	width: 100%;
 	padding: 8px;
 	border: 2px solid #7e7575;
 	border-radius: 10px;
@@ -104,7 +106,8 @@ textarea
 
 .send_button
 {
-	width: 85%;
+	/*width: 85%;*/
+	width: 100%;
 	text-align: right;
 }
 
@@ -148,6 +151,44 @@ textarea
 	opacity: 1;	
 	transition: 2s;
 }*/
+
+/*Captcha*/
+.captcha_question_div
+{
+	width: 85%;
+    padding: 7px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    /*text-decoration: line-through;*/
+    border: 2px solid #7e7575;
+    border-radius: 10px;
+    float: left;
+    background: url('../image/siteimage/captchabg1.png');
+    font-weight: 600;
+    color: black;
+}
+
+.captcha_question
+{
+	text-shadow: -3px 1px 0px #e1f919;
+	font-size: 18px;
+}
+
+.captcha_refresh_div
+{
+	width: 15%;
+    float: left;
+    padding-top: 16px;
+    padding-left: 4px;
+    float: left;
+}
+
+.captcha_refresh
+{
+
+}
+/*Captcha End*/
 
 .message-success
 {

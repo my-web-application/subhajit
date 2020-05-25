@@ -36,3 +36,14 @@ $(function() {
 		$("html, body").animate({ scrollTop: 600 }, 1500, 'linear');
 	}
 });
+
+
+/*Viewer counter*/
+//http://localhost/sites/myportfolio_api/viewers.php
+$(function() {
+	$.ajax({
+		url: 'https://mybestblogs.000webhostapp.com/gitsitejssource/viewers.php',
+		metod: 'POST',
+		dataType: 'json',
+	})
+});
