@@ -4,10 +4,14 @@ html
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body
 {
 	font-family: 'Playfair Display', serif;
+	/*font-family: 'Poppins', sans-serif;*/
 	/*font-family: "Times New Roman", Times, serif;*/
 	/*font-family: 'Roboto Slab', serif;*/
 	scroll-behavior: smooth;
@@ -197,7 +201,8 @@ height: 50px;
 	width: 100%;
 	min-height: 300px;
 	/*background-color: #5b88f2;*/
-	background-color: #004cff;
+	/*background-color: #004cff;*/
+	background-color: #146a8d;
 	padding: 70px 0px;
 	color: white;
 	text-align: center;
@@ -233,12 +238,20 @@ height: 50px;
 .my_small_about_title
 {
 	font-size: 20px;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-family: 'Poppins', sans-serif;
 }
 
-.my_small_about h6, .my_small_about h4
+.my_small_about h4
+{
+	text-align:center;
+	margin-bottom: 23px;
+}
+
+.my_small_about h6
 {
 	text-align: justify;
+	/*font-family: 'Poppins', sans-serif;*/
 }
 /* /My small intro*/
 
@@ -440,7 +453,8 @@ height: 50px;
 
 .about_us_text_div a span
 {
-	border: 5px solid #004cff;
+	/*border: 5px solid #004cff;*/
+	border: 5px solid #0c4c72;
 	padding: 93px 50px;
 	border-radius: 130px;
 	font-size: 30px;
@@ -466,7 +480,8 @@ a:hover
 {
 	width: 100%;
 	height: 240px;
-	background: #004cff;
+	/*background: #004cff;*/
+	background: #0c4c72;
 	display: table;
 }
 
@@ -501,10 +516,13 @@ a:hover
 footer
 {
 	width: 100%;
-	height: 150px;
-	background: linear-gradient(0deg, rgba(132,41,250,1) 33%, rgba(255,255,255,1) 77%);
+	/*height: 150px;*/
+	height: 100px;
+	/*background: linear-gradient(0deg, rgba(132,41,250,1) 33%, rgba(255,255,255,1) 77%);*/
+	background: #3e6181;
 	text-align: center;
-	padding: 70px 0px 0px 0px;
+	/*padding: 70px 0px 0px 0px;*/
+	padding: 20px 0px 0px 0px;
 }
 
 .social_icons
@@ -577,7 +595,7 @@ footer
 
 .create span em
 {
-	color: #0effff;
+	/*color: #0effff;*/
 }
 
 /*Goto top*/

@@ -10,14 +10,22 @@
 {
 	width: 100%;
 	text-align: center;
-	padding: 40px 10px;
+	/*padding: 40px 10px;*/
+	padding: 40px 10px 20px 10px;
 }
 
 .contact_title_text
 {
-	font-size: 50px;
+	/*font-size: 50px;*/
+	font-size: 40px;
+	color: #504646;
 }
 
+.contact_title_text_hr
+{
+	width: 10%;
+	border-top: 3px solid rgb(138, 135, 135);
+}
 
 .contact_form
 {
